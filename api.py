@@ -38,7 +38,7 @@ def load_list():
 def load_pins():
     with open(pinned_file_path, 'r', encoding="utf8") as file:
         data = json.load(file)
-    return { "pinned_list_data" : data }
+    return data 
 
 @app.post("/postList/")
 async def update_pins(item: Item):

@@ -3,7 +3,7 @@ import json
 
 pinned_file_path = "./web_page/src/database/pinnedChannel.json"
 pin_able_file_path = "./web_page/src/database/pinAbleChannel.json"
-discord_token = 'MTA2ODc5OTI3Njc2NDg5NzQwMA.GgWJ0e.3NpB4b2bj-_9dFyhTqNl26gftP72UV7a5ZrOKk'
+discord_token = ''
 
 intents = discord.Intents.default()
 intents.message_content = True
