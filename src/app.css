@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+#containerID {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.page {
+    flex: 4;
+    background-color: #a8c3dd;
+}
+
+#pageID {
+    flex: 4;
+}
