@@ -35,6 +35,13 @@
     padding-left: 10px;
 }
 
+.sidebarListItemClicked {
+    background-color: #92D050;
+    width: 8px;
+    height: 50px;
+    margin: auto 0 0 auto;
+}
+
 .sidebarListItem.active,
 .sidebarListItem:hover {
     background-color: #3a83c7;

@@ -1,3 +1,84 @@
 .pinned {
     flex: 4;
 }
+
+#pinnedID {
+    flex: 4;
+    margin: 0px;
+    padding: 0px;;
+}
+
+.pinnedPage {
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.pinnedTitle {
+    color: #2E75B6;
+    padding-left: 5px;
+    margin: 0px;
+}
+
+.pinnedTitleBar {
+    background-color: #2E75B6;
+    flex: 1;
+    height: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.pinnedList {
+    padding: 10px;
+}
+
+.pinnedListItem {
+    padding: 10px;
+}
+
+.pinnedListItemTop {
+    display: flex;
+    align-items: center;
+}
+
+.pinnedListItemTitle {
+    color: #2E75B6;
+    margin: 0px;
+}
+
+.pinnedListItemIconBox {
+    padding: 2px;
+    margin: auto 0 0 auto;
+}
+
+.pinnedListItemIcon {
+    width: 18px;
+    height: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.pinnedListItemTopBar {
+    background-color: #9DC3E6;
+    flex: 1;
+    height: 3px;
+    margin-top: 5px;
+}
+
+.pinnedItemAdd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pinnedItemAddIcon {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.pinnedItemAddText {
+    color: #A6A6A6;
+    padding-left: 10px;
+    margin: 0px;
+}
